@@ -97,8 +97,8 @@ gulp.task('watch', function() {
   // Serve files from the root of this project
     live.init(files, {
         //browser file with php server.
-            proxy: "mystore.dev",
-            host: "192.168.1.66",
+            proxy: "localhost",
+            host: "192.168.1.66", //IP for external streaming. Get it from dev-ip.
             notify: false
     });
 
