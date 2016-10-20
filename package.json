@@ -1,0 +1,42 @@
+{
+  "name": "jom-gulp",
+  "version": "1.0.0",
+  "description": "Theme automation by using gulp.",
+  "main": "gulp.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edzul85/jom-gulp-wp.git"
+  },
+  "keywords": [
+    "gulp",
+    "theme",
+    "automate",
+    "bower",
+    "browsersync"
+  ],
+  "author": "Edzul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edzul85/jom-gulp-wp/issues"
+  },
+  "homepage": "https://github.com/edzul85/jom-gulp-wp#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.1.1",
+    "jshint": "^2.9.3"
+  }
+}
